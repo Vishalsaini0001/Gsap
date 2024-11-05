@@ -1,0 +1,36 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color:royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(44, 73, 160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(9, 28, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(128, 35, 35);
+    
+}

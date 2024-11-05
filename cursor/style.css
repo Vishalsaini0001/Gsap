@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: #111;
+}
+
+#cursor{
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: fixed;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#image{
+    width: 60vw;
+    height: 30vw;
+    background-color: red;
+    background-size: cover;
+    overflow: hidden;
+    background-image: url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
