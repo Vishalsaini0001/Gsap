@@ -1,6 +1,6 @@
 let main = document.querySelector("#main");
 let cursor = document.querySelector("#cursor");
-let image = document.querySelector("#image");
+let image = document.querySelector("#image")
 
 main.addEventListener("mousemove", function (e) {
   gsap.to(cursor, {
