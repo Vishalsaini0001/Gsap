@@ -6,7 +6,7 @@ function breakText() {
 
   let half = splittedText.length / 2;
 
-  let clutter = "";
+  let clutter = ""
   splittedText.forEach(function (elem, idx) {
     if (idx < half) {
       clutter += `<span class="a" >${elem} </span>`;
