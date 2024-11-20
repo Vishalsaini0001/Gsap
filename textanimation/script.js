@@ -14,7 +14,7 @@ function breakText() {
       clutter += `<span class="b" >${elem} </span>`;
     }
   });
-  h1.innerHTML = clutter
+  h1.innerHTML = clutter;
 }
 breakText();
 
